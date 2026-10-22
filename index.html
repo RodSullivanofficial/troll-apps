@@ -1,7 +1,4 @@
-
-
-<!DOCTYPE html>
-<html lang="pl">
+<!DOCTYPE html><html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="status">◉ trollapps.pl
-    <span>◆ 100% ▰ 12:34</span>
-</div>
-
-<header>
+<div class="status">◉ trollapps.pl <span>◆ 100% ▰ 12:34</span></div><header>
     <div class="android">🤖</div>
     <div>
         <h1><span>TROLL</span> APPS</h1>
@@ -22,9 +14,7 @@
         <h3>(albo gorszym xd)</h3>
     </div>
     <div class="cat">😎<br>YEAH BABY!</div>
-</header>
-
-<div class="layout">
+</header><div class="layout">
     <aside>
         <section class="menu">
             <h2>Menu</h2>
@@ -34,460 +24,84 @@
             <a href="#">💬 Kontakt (nie odpowiadamy)</a>
             <a href="#">🗑 O nas (nie wiem)</a>
         </section>
-
         <section class="download">
             <h2>Pobierz teraz!</h2>
-            <button onclick="alert('XD nic się nie pobrało')">
-                ⬇ Pobierz wszystko za darmo!
-            </button>
+            <button onclick="alert('XD nic się nie pobrało')">⬇ Pobierz wszystko za darmo!</button>
             <p>GET IT ON<br><b>Google Play</b></p>
             <small>(nie jesteśmy na Play Store)</small>
         </section>
-    </aside>
-
-    <main>
-        <div class="welcome">
-            <div class="robot">🤖</div>
-            <div>
-                <h2>Witaj na Troll Apps!</h2>
-                <p>Tutaj znajdziesz najlepsze aplikacje na Androida!</p>
-                <p>100% darmowe, 100% bez sensu, 100% troll.</p>
-            </div>
+    </aside><main>
+    <div class="welcome">
+        <div class="robot">🤖</div>
+        <div>
+            <h2>Witaj na Troll Apps!</h2>
+            <p>Tutaj znajdziesz najlepsze aplikacje na Androida!</p>
+            <p>100% darmowe, 100% bez sensu, 100% troll.</p>
         </div>
+    </div>
 
-        <h2 class="green">Nasze aplikacje</h2>
+    <h2 class="green">Nasze aplikacje</h2>
+    <div class="apps" id="apps">
+        <article>
+            <div class="app-icon">🗿</div>
+            <h3>Troll Face Pro</h3>
+            <p>Sprawia, że twój telefon się śmieje (dosłownie) XD</p>
+            <button onclick="alert('Błąd 404: mózg nie znaleziony')">Pobierz</button>
+        </article>
+        <article>
+            <div class="app-icon trash">🗑</div>
+            <h3>Brudny Cleaner</h3>
+            <p>Czyści niepotrzebne pliki, ale tylko z tapety.</p>
+            <button onclick="alert('Usunięto 0 bajtów. Sukces!')">Pobierz</button>
+        </article>
+        <article>
+            <div class="app-icon windows">🪟</div>
+            <h3>Windows 12 Mobile</h3>
+            <p>Daje Windowsa na Androidzie! (bez sensu)</p>
+            <button onclick="alert('Wymagany komputer NASA')">Pobierz</button>
+        </article>
+        <article>
+            <div class="app-icon creeper">☠</div>
+            <h3>Fake Minecraft</h3>
+            <p>Otwiera Minecrafta na zdjęciu. XD</p>
+            <button onclick="alert('Minecraft.exe przestał istnieć')">Pobierz</button>
+        </article>
+    </div>
 
-        <div class="apps" id="apps">
-            <article>
-                <div class="app-icon">🗿</div>
-                <h3>Troll Face Pro</h3>
-                <p>Sprawia, że twój telefon się śmieje (dosłownie) XD</p>
-                <button onclick="alert('Błąd 404: mózg nie znaleziony')">Pobierz</button>
-            </article>
+    <div class="banner" onclick="alert('GRATULACJE! Wygrałeś absolutnie nic.')">
+        <span>🤡</span>
+        <strong>Nie działa? To dobrze!<br>To znaczy, że działa!</strong>
+        <b class="arrow">➜</b>
+    </div>
+</main>
 
-            <article>
-                <div class="app-icon trash">🗑</div>
-                <h3>Brudny Cleaner</h3>
-                <p>Czyści niepotrzebne pliki, ale tylko z tapety.</p>
-                <button onclick="alert('Usunięto 0 bajtów. Sukces!')">Pobierz</button>
-            </article>
-
-            <article>
-                <div class="app-icon windows">🪟</div>
-                <h3>Windows 12 Mobile</h3>
-                <p>Daje Windowsa na Androidzie! (bez sensu)</p>
-                <button onclick="alert('Wymagany komputer NASA')">Pobierz</button>
-            </article>
-
-            <article>
-                <div class="app-icon creeper">☠</div>
-                <h3>Fake Minecraft</h3>
-                <p>Otwiera Minecrafta na zdjęciu. XD</p>
-                <button onclick="alert('Minecraft.exe przestał istnieć')">Pobierz</button>
-            </article>
+<aside class="right">
+    <section class="ad">
+        <h2>Reklama (nie klikaj)</h2>
+        <div class="goat">🐐<br><b>KOZA WIDZI WSZYSTKO</b>
+            <p>NIGDY NIE KLIKAJ W REKLAMY!!!</p>
         </div>
+    </section>
+    <section class="stats">
+        <h2>Statystyki (nieprawdziwe)</h2>
+        Pobrano dziś: <b>69420</b><br>
+        Łącznie pobrań: <b>133337</b><br>
+        Zadowolonych: <b class="red">0</b><br>(ale będzie!)
+    </section>
+    <section class="recommend">
+        <h2>Polecamy też!</h2>
+        <ul>
+            <li>Fake WhatsApp</li>
+            <li>Troll Kamera</li>
+            <li>Wirus (nie działa)</li>
+            <li>Aplikacja do niczego</li>
+        </ul>
+    </section>
+</aside>
 
-        <div class="banner" onclick="alert('GRATULACJE! Wygrałeś absolutnie nic.')">
-            <span>🤡</span>
-            <strong>Nie działa? To dobrze!<br>To znaczy, że działa!</strong>
-            <b class="arrow">➜</b>
-        </div>
-    </main>
-
-    <aside class="right">
-        <section class="ad">
-            <h2>Reklama (nie klikaj)</h2>
-            <div class="goat">
-                🐐<br>
-                <b>KOZA WIDZI WSZYSTKO</b>
-                <p>NIGDY NIE KLIKAJ W REKLAMY!!!</p>
-            </div>
-        </section>
-
-        <section class="stats">
-            <h2>Statystyki (nieprawdziwe)</h2>
-            Pobrano dziś: <b>69420</b><br>
-            Łącznie pobrań: <b>133337</b><br>
-            Zadowolonych: <b class="red">0</b><br>
-            (ale będzie!)
-        </section>
-
-        <section class="recommend">
-            <h2>Polecamy też!</h2>
-            <ul>
-                <li>Fake WhatsApp</li>
-                <li>Troll Kamera</li>
-                <li>Wirus (nie działa)</li>
-                <li>Aplikacja do niczego</li>
-            </ul>
-        </section>
-    </aside>
-</div>
-
-<footer>
+</div><footer>
     Troll Apps 2026 — bo życie jest za krótkie, żeby używać poważnych aplikacji.<br>
     <small>🤖 Android™ | Nie jesteśmy oficjalni | Nie ponosimy odpowiedzialności za nic</small>
 </footer>
-
 </body>
 </html>
-
-style.css
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: "Comic Sans MS", cursive;
-    background: #64cfff;
-    color: #080808;
-    background-image: repeating-linear-gradient(
-        45deg,
-        rgba(255,255,255,.12) 0px,
-        rgba(255,255,255,.12) 5px,
-        transparent 5px,
-        transparent 12px
-    );
-}
-
-.status {
-    background: #222;
-    color: white;
-    padding: 12px 20px;
-    font-family: Arial, sans-serif;
-}
-
-.status span {
-    float: right;
-}
-
-header {
-    min-height: 220px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(#168cff, #a3e8ff);
-    border-bottom: 5px solid white;
-}
-
-header h1 {
-    font-size: clamp(38px, 6vw, 75px);
-    margin: 0;
-    font-weight: 1000;
-    color: #7300ff;
-    text-shadow: 4px 5px #111;
-}
-
-header h1 span {
-    color: #27ff00;
-}
-
-header h2 {
-    margin: 5px;
-}
-
-header h3 {
-    margin: 0;
-}
-
-.android {
-    font-size: 100px;
-    transform: rotate(-10deg);
-}
-
-.cat {
-    font-size: 55px;
-    font-weight: bold;
-    text-shadow: 2px 2px white;
-}
-
-.layout {
-    display: grid;
-    grid-template-columns: 240px minmax(0, 1fr) 240px;
-    gap: 12px;
-    padding: 12px;
-    max-width: 1500px;
-    margin: auto;
-}
-
-section, main {
-    background: rgba(255,255,255,.88);
-    border: 2px solid #54c6ff;
-    border-radius: 5px;
-    margin-bottom: 12px;
-    overflow: hidden;
-}
-
-section h2, .green {
-    margin: 0;
-    padding: 12px;
-    background: linear-gradient(#a8ff70, #65e83c);
-    font-size: 21px;
-}
-
-.menu a {
-    display: block;
-    padding: 12px;
-    color: #0016d9;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    background: yellow;
-    color: red;
-    transform: rotate(-1deg);
-}
-
-.download h2 {
-    background: linear-gradient(#c6a0ff, #9b5cff);
-}
-
-.download {
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-button {
-    border: 0;
-    background: linear-gradient(#eeeeee, #cdd4d8);
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-button:hover {
-    background: yellow;
-    transform: scale(1.05) rotate(-1deg);
-}
-
-.download button {
-    margin: 15px;
-    color: white;
-    background: #08b72b;
-    font-size: 17px;
-}
-
-.download p {
-    background: black;
-    color: white;
-    display: inline-block;
-    padding: 12px 25px;
-    border-radius: 8px;
-}
-
-.welcome {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.welcome h2 {
-    font-size: 32px;
-    margin: 0 0 12px;
-}
-
-.welcome p {
-    margin: 4px 0;
-    font-size: 18px;
-}
-
-.robot {
-    font-size: 70px;
-}
-
-.green {
-    margin: 0 20px;
-    border-radius: 5px;
-}
-
-.apps {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    margin: 0 20px 15px;
-    background: #e8f5ff;
-}
-
-.apps article {
-    text-align: center;
-    padding: 15px 8px;
-    border-right: 5px solid #dce8ee;
-}
-
-.app-icon {
-    height: 95px;
-    width: 95px;
-    margin: auto;
-    display: grid;
-    place-items: center;
-    font-size: 65px;
-    background: #272727;
-    border-radius: 12px;
-}
-
-.trash {
-    background: #168aff;
-}
-
-.windows {
-    background: #0066a9;
-}
-
-.creeper {
-    background: #22ce18;
-    color: #000;
-}
-
-.apps h3 {
-    font-size: 16px;
-}
-
-.apps p {
-    min-height: 62px;
-    font-size: 14px;
-}
-
-.apps button {
-    width: 95%;
-}
-
-.banner {
-    margin: 0 20px 15px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(90deg, red, blue);
-    color: #ff1919;
-    text-shadow: 1px 1px black;
-    font-size: 22px;
-    cursor: pointer;
-}
-
-.banner span {
-    font-size: 60px;
-}
-
-.arrow {
-    color: red;
-    font-size: 70px;
-}
-
-.ad h2 {
-    background: #35bfff;
-}
-
-.goat {
-    margin: 10px;
-    padding: 15px 5px;
-    text-align: center;
-    background: linear-gradient(#3d9ed0, #92d950);
-    font-size: 22px;
-    border: 3px solid white;
-}
-
-.goat b {
-    font-size: 20px;
-}
-
-.goat p {
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.stats {
-    padding-bottom: 12px;
-    line-height: 1.8;
-}
-
-.stats h2 {
-    background: #ff83dc;
-}
-
-.stats b {
-    color: green;
-}
-
-.stats .red {
-    color: red;
-}
-
-.recommend h2 {
-    background: #ffdc23;
-}
-
-.recommend ul {
-    padding-left: 35px;
-    line-height: 1.8;
-}
-
-footer {
-    background: black;
-    color: #25ff32;
-    padding: 20px;
-    text-align: center;
-}
-
-footer small {
-    display: inline-block;
-    margin-top: 10px;
-    color: #888;
-}
-
-@media (max-width: 900px) {
-    .layout {
-        grid-template-columns: 1fr;
-    }
-
-    .right {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-    }
-
-    .right section {
-        margin-bottom: 0;
-    }
-
-    header .android, header .cat {
-        display: none;
-    }
-
-    .apps {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .apps article {
-        border-bottom: 4px solid #dce8ee;
-    }
-}
-
-@media (max-width: 450px) {
-    .right {
-        display: block;
-    }
-
-    .welcome {
-        padding: 12px;
-    }
-
-    .welcome h2 {
-        font-size: 24px;
-    }
-
-    .welcome p {
-        font-size: 15px;
-    }
-
-    .banner {
-        font-size: 16px;
-    }
-}
